@@ -30,6 +30,7 @@ namespace Assignment_2
         private void Button3_Click(object sender, EventArgs e)
         {
             double PR1, PR2;
+            // shows wich each text box is being used in each set of code//
 
             try
             {
@@ -39,6 +40,7 @@ namespace Assignment_2
             {
                 MessageBox.Show("not correct value");
                 PR1 = 0.0;
+                //if answer is not a whole number it will not be seen and will be an error//
             }
             try
             {
@@ -48,9 +50,11 @@ namespace Assignment_2
             {
                 MessageBox.Show("not correct value");
                 PR2 = 0.0;
+                //if answer is not a whole number it will not be seen and will be an error//
             }
-            double resistance = 1 / 1 / PR1 + 1 / PR2;
+            double resistance = 1.0  /( 1.0 / PR1 + 1.0 / PR2);
             label16.Text = "" + resistance;
+            //this the calculation which is used to calculate the total resistance//
         }
 
         private void PictureBox2_Click(object sender, EventArgs e)
@@ -76,6 +80,7 @@ namespace Assignment_2
         private void Button1_Click(object sender, EventArgs e)
         {
             double SR1, SR2;
+            // shows wich each text box is being used in each set of code//
 
             try
             {
@@ -85,6 +90,7 @@ namespace Assignment_2
             {
                 MessageBox.Show("not correct value");
                 SR1 = 0.0;
+                //if answer is not a whole number it will not be seen and will be an error//
             }
             try
             {
@@ -94,9 +100,11 @@ namespace Assignment_2
             {
                 MessageBox.Show("not correct value");
                 SR2 = 0.0;
+                //if answer is not a whole number it will not be seen and will be an error//
             }
             double resistance = SR1 + SR2;
             label8.Text = "" + resistance;
+            //this the calculation which is used to calculate the total resistance//
 
 
 
@@ -106,6 +114,7 @@ namespace Assignment_2
         private void Button2_Click(object sender, EventArgs e)
         {
             double SR3, SR4, SR5;
+            // shows wich each text box is being used in each set of code//
 
             try
             {
@@ -115,6 +124,7 @@ namespace Assignment_2
             {
                 MessageBox.Show("not correct value");
                 SR3 = 0.0;
+                //if answer is not a whole number it will not be seen and will be an error//
             }
             try
             {
@@ -124,6 +134,7 @@ namespace Assignment_2
             {
                 MessageBox.Show("not correct value");
                 SR4 = 0.0;
+                //if answer is not a whole number it will not be seen and will be an error//
             }
             try
             {
@@ -133,9 +144,11 @@ namespace Assignment_2
             {
                 MessageBox.Show("not correct value");
                 SR5 = 0.0;
+               //if answer is not a whole number it will not be seen and will be an error//
             }
             double resistance = SR3 + SR4 + SR5;
             label9.Text = "" + resistance;
+            //this the calculation which is used to calculate the total resistance//
         }
 
         private void TabPage2_Click(object sender, EventArgs e)
@@ -147,6 +160,7 @@ namespace Assignment_2
         private void Button4_Click(object sender, EventArgs e)
         {
             double PR3, PR4, PR5;
+            // shows wich each text box is being used in each set of code//
 
             try
             {
@@ -156,6 +170,7 @@ namespace Assignment_2
             {
                 MessageBox.Show("not correct value");
                 PR3 = 0.0;
+                //if answer is not a whole number it will not be seen and will be an error//
             }
             try
             {
@@ -165,6 +180,7 @@ namespace Assignment_2
             {
                 MessageBox.Show("not correct value");
                 PR4 = 0.0;
+                //if answer is not a whole number it will not be seen and will be an error//
             }
             try
             {
@@ -174,9 +190,11 @@ namespace Assignment_2
             {
                 MessageBox.Show("not correct value");
                 PR5 = 0.0;
+                //if answer is not a whole number it will not be seen and will be an error//
             }
             double resistance = 1.0 / (1.0 / PR3 + 1.0 / PR4 + 1.0 / PR5);
             label15.Text = "" + resistance;
+            //this the calculation which is used to calculate the total resistance//
         }
     }
     
